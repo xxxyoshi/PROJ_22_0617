@@ -15,6 +15,7 @@
         <div class="menu">
             <h3>MENU</h3>
             <ul class="top-menu">
+            <li><a href="{{ route('news') }}">お知らせ</a></li>
                 <li><a href="#">補助金申請</a></li>
                 <li><a href="#">申込状況照会</a></li>
                 <li><a href="#">期間集計</a></li>

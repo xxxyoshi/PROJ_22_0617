@@ -109,3 +109,11 @@ Route::get('test/password/edit', 'TestController@passwordEdit')->name('test.pass
 Route::post('test/password/update', 'TestController@passwordUpdate')->name('test.passwordUpdate');
 
 Route::get('chat/bot', 'TestController@chat')->name('chat.bot');
+
+
+
+Route::get('news', 'TestController@news')->name('news');
+
+Route::get('news/{news}/show', 'TestController@newsShow')->name('news.show');
+
+Route::get('news/{news}/category', 'TestController@newsCategory')->name('news.category');
